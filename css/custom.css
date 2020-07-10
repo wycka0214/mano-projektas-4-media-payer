@@ -1,0 +1,9 @@
+.container1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+    #alpha {
+        color: red;
+    }
