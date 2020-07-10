@@ -1,6 +1,6 @@
 .container1 {
     display: inline-block;
-    width: 100%;
+    width: 1400px;
     text-align: center;
     text-decoration: none
 }
@@ -37,13 +37,44 @@
         font-family: monospace;
         margin: 20px 20px;
     }
-.email {
-    background-color: #D9D4FC;
-    border-radius: 25px;
-    height: 50px;
-    padding-left: 20px;
-}
-    .btn {
-        float: right;
-        margin-bottom: 100px;
+    .meeting {
+       
+       
     }
+    .email {
+        background-color: #D9D4FC;
+        border-radius: 25px;
+        height: 50px;
+        padding-left: 20px;
+    }
+        .btn {
+            float: right;
+            margin-bottom: 100px;
+        }
+.container2 {
+    background-color: #3C28EB;
+    display: inline-block;
+    width: 1400px;
+    text-align: center;
+    text-decoration: none
+}
+    .fut {
+        display: inline-block;
+        float: left;
+        padding: 30px;
+        text-align: left;
+        width: 350px ;
+        text-decoration: none;
+       
+}
+.features {
+    color: #F6BECB;
+}
+.best {   
+    font-size: 40px;
+    color: #F6BECB;
+    padding: 20px 0;
+}
+.lorem {
+    color: #f8dff8;
+}
