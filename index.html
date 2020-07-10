@@ -6,19 +6,19 @@
     <title>Media payer</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/clock.css">
     <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/clock.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/custom.css">    
 </head>
 <body>
     <div class="container1">
-        <a href="#">. <span id="alpha" >Alpha</span></a>
-        <a href="#">Features</a>
-        <a href="#">Support</a>
+        <a id="dot" href="#">. <span id="alpha" >Alpha</span></a>
+        <a class="sup" id="sup" href="#">Support</a>
+        <a class="sup" href="#">Features</a>
         <h1>Open source media player</h1>
         <p>Comming soon on android and ios</p>
-        <img src="./img/meeting.png" alt="meeting tablewith people">
+        <img class="meeting" src="./img/meeting.png" alt="meeting tablewith people">
         <div class="clock">
             <div class="time">
                 <div class="value">176</div>
@@ -37,11 +37,10 @@
                 <div class="label">seconds</div>
             </div>
         <form>
-            <input type="email" name="subscribe-email" placeholder="Enter your email ">
-            <a href="#">Join the waiting list</a>
+            <input class="email" type="email" name="subscribe-email" placeholder="Enter your email ">
+            <a class="btn" href="#">Join the waiting list</a>
         </form>
     </div>
-
     <div class="container2">
         <a href="#">FEATURES</a>
         <h2>Best cross platform video player</h2>
@@ -51,7 +50,6 @@
         <a href="#"> <img src="./img/captios.png" alt="Closed captions">Closed captions</a>
         <a href="#"> <img src="./img/network.png" alt="Network streams">Network streams</a>
     </div>
-
     <div class="container3">
             <div>
                 <h3>Easily zoom</h3>
@@ -69,19 +67,20 @@
                 <img src="./img/nightmode.png" alt="Night Mode">
             </div>
     </div>
-
     <div class="container4">
         <h4>Get started</h4>
         <p>Be among the first to try the app</p>
         <a href="#">Join the waiting list</a>
     </div>
-
     <footer class="container5">
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
-        <a href="#">Cookies</a>
-        <a href="#">. <span>Alpha</span></a>
-        <div>© 2018 Alpha. all rights reserved.</div>
+        <div>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+        </div>
+        <div>
+            <a href="#">. <span>Alpha</span></a>© 2018 Alpha. all rights reserved.
+        </div>
         <div class="socials">
             <a href="#" target="_blank" class="fa fa-twitter"></a>
             <a href="#" target="_blank" class="fa fa-facebook"></a>
