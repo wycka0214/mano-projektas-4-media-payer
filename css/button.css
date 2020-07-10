@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    min-width: 52px;
+    padding: 16px 20px;
+    background-color: #EA1E63;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+    .btn:hover {
+        box-shadow: 0 1px 4px #0005;
+    }
+    .btn.btn-round {
+        font-size: 22px;
+        border-radius: 50%;
+    }

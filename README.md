@@ -1,2 +1,2 @@
-# mano projektas 4 - media payer
+# Mano projektas 4 - media payer
  
