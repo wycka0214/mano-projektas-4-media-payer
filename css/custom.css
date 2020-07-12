@@ -10,7 +10,7 @@
     .container1 {
         min-height: 100vh;        
     }
-        #dot {
+        .dot {
             color: blue;
             padding: 10px;
             text-decoration: none;
@@ -94,7 +94,7 @@
         .right2 {
             background-color: olive;
             display: inline-block;
-            width: 10%;
+            width: 8%;
             float: left;
             margin: 20px 300px;
         }
@@ -103,7 +103,7 @@
                 background-color: violet;
                 margin: 10px 0;
                 display: inline-block;
-                width: 100%;
+                width: 100%
         }
              .r2text {
                 text-decoration: none;
@@ -138,29 +138,30 @@
                 font-size: 25px;
             }
         .container4 h4 {
-            float: left;
+            text-align: left;
+            width: 100%;
             display: inline-block;
-            width: 70%;
-            margin-left: 70px;
+            margin: 70px 0 0 70px;
             font-size: 60px;
             color: #fff;
             padding:50px 10px 10px 0;
         }
         .container4 p {
             display: inline-block;
-            width: 70%;
-            float: left;
+            text-align: left;
+            width: 100%;
             margin-left: 70px;
             font-size: 30px;
             color: #E4DBFF;
         }
         .container4 a {
-            text-align: left;
             background-color: #fff;
             color: rgb(44, 44, 185);
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-weight: bold ;
             position: unset;
+            float: left;
+            margin: 0 0 150px 1200px;
         }
             .container4 a:hover {
                 color: #fff;
