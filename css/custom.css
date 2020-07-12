@@ -8,7 +8,7 @@
     text-align: center;
 }
     .container1 {
-        height: 100vh;        
+        min-height: 100vh;        
     }
         #dot {
             color: blue;
@@ -92,11 +92,11 @@
             }
 
         .right2 {
-            width: 100%;
             background-color: olive;
             display: inline-block;
             width: 10%;
-            margin: 20px 10px;
+            float: left;
+            margin: 20px 300px;
         }
             .r2img {
                 height: 144px;
@@ -104,8 +104,6 @@
                 margin: 10px 0;
                 display: inline-block;
                 width: 100%;
-                font-size: 90px;
-                line-height: 90px;
         }
              .r2text {
                 text-decoration: none;
@@ -114,10 +112,9 @@
                 width: 100%;
                 font-size: 18px;
                 line-height: 20px;
-                text-transform: capitalize;
                 background-color: red;
              }
-
+/*-----------------*/
         .c31 {
             display: inline-block;
             text-align: center;
