@@ -2,6 +2,7 @@
     display: inline-block;
     width: 700px;
     text-align: center;
+    position: relative;
     
 }
     .clock > .time {
