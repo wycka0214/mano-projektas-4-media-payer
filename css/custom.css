@@ -90,7 +90,6 @@
                 color: #f8dff8;
                 text-align: left;
             }
-
         .right2 {
             background-color: olive;
             display: inline;
@@ -105,15 +104,14 @@
                 background-color: violet;
                 margin: 10px 0;
                 width: 100%;
-                padding: 0 170px;
-                
+                padding: 0 170px;                
         }
              .r2text {
                 text-decoration: none;
                 color: white;
                 width: 100%;
-                font-size: 18px;
-                line-height: 20px;
+                font-size: 32px;
+                line-height: 36px;
                 background-color: red;
              }
 /*-----------------*/
@@ -188,6 +186,14 @@
             text-align: center;
             text-decoration: none;
         }
+        @media (max-width: 1200px) {
+            .btn2 {
+                line-height: 14px;
+                left: 23%;
+                bottom: 32.1%;
+            }
+        }
+        
         .c4img a {
             padding: 60px 0 20px;
             font-size: 40px;
