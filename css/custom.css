@@ -71,7 +71,7 @@
         .left2 {
             display: inline-block;
             float: left;
-            width: 30%;
+            width: 40%;
             padding: 30px 60px;
             text-align: left;
             margin-top: 40px;
@@ -93,22 +93,24 @@
 
         .right2 {
             background-color: olive;
-            display: inline-block;
+            display: inline;
             float: left;
-            width: 16%;
+            width: 30%;
         }
+            .flor {
+                float: right;
+            }
             .r2img {
                 height: 144px;
                 background-color: violet;
                 margin: 10px 0;
-
-                display: inline-block;
-                width: 100%
+                width: 100%;
+                padding: 0 170px;
+                
         }
              .r2text {
                 text-decoration: none;
                 color: white;
-                display: inline-block;
                 width: 100%;
                 font-size: 18px;
                 line-height: 20px;
