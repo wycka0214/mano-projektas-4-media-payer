@@ -1,6 +1,5 @@
 .clock {
     display: inline-block;
-    width: 700px;
     text-align: center;
     position: relative;
     
@@ -24,3 +23,9 @@
             line-height: 20px;
             text-transform: capitalize;
         }
+        @media (max-width: 600px) {
+            .clock > .time, {
+                width: 46%;
+            }
+        }
+        

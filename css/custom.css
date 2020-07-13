@@ -67,14 +67,7 @@
                 left: 73%;
                 bottom: 32.1%;     
             }
-
-            @media (max-width: 650px) {
-                .email  {
-                    width: 50%;
-                    padding: 0 40%;
-                 }
-            }
-/* antras container*/
+            }/* antras container*/
         .left2 {
             display: inline-block;
             float: left;
@@ -101,7 +94,6 @@
         .right2 {
             background-color: olive;
             display: inline-block;
-            width: 8%;
             float: left;
             margin: 20px 300px;
         }
@@ -128,8 +120,6 @@
             border: 1px solid rgb(170, 151, 151);
             border-radius: 10px;
             margin: 25px;
-            width: 300px;
-            height: 450px;
         }
             .h33 {
                  width: 100%;
@@ -144,6 +134,7 @@
                 color: #828689;
                 font-size: 25px;
             }
+            
         .container4 h4 {
             text-align: left;
             width: 100%;
@@ -201,13 +192,13 @@
             font-size: 18px;
             color: #777;
         }
-           .socials {
+          .container5 > .socials {
                 display: inline;
                 text-decoration: none;
                 width: 50px;
                 height: 50px;
             }
-            .socials a {
+            .container5 >  .socials a {
                     width: 48px;
                     padding: 10px;
                     float: right;
