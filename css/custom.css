@@ -95,7 +95,7 @@
             display: inline;
             float: left;
             width: 30%;
-        }
+        }        
             .flor {
                 float: right;
             }
@@ -103,12 +103,14 @@
                 height: 144px;
                 background-color: violet;
                 margin: 10px 0;
+                display: inline;
                 width: 100%;
                 padding: 0 170px;                
         }
              .r2text {
                 text-decoration: none;
                 color: white;
+                display: inline;
                 width: 100%;
                 font-size: 32px;
                 line-height: 36px;
