@@ -67,6 +67,13 @@
                 left: 73%;
                 bottom: 32.1%;     
             }
+
+            @media (max-width: 650px) {
+                .email  {
+                    width: 50%;
+                    padding: 0 40%;
+                 }
+            }
 /* antras container*/
         .left2 {
             display: inline-block;
