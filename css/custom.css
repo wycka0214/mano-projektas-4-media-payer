@@ -67,7 +67,6 @@
                 left: 73%;
                 bottom: 32.1%;     
             }
-            /* antras container*/
         .left2 {
             display: inline-block;
             float: left;
@@ -92,8 +91,7 @@
             }
         .right2 {
             background-color: olive;
-            display: inline;
-            float: left;
+            display: inline-block;
             width: 30%;
         }        
             .flor {
@@ -140,18 +138,20 @@
         .container4 div {
             display: inline-block;
             text-align: left;
-            width: 75%;
-            margin-left: 70px;
+            width: 50%;
         }
             .container4 h4 {
-                margin: 69px 0px 12px 99px;
+                margin: 69px 0px 12px 0;
                 font-size: 60px;
+                width: 100%;
                 color: #fff;
                 padding:50px 10px 10px 0;
             }
             .container4 p {
                 font-size: 30px;
                 color: #E4DBFF;
+                text-align: left;
+                width: 100%;
             }
             .container4 a {
                 background-color: #fff;
@@ -167,40 +167,36 @@
                 color: #fff;
                 background-color: rgb(176, 176, 253);
             }
+
+
+
+            
+            .container5 > .c4link p {
+                font-size: 18px;
+                color: #777;
+                width: 30%;
+            }
+            .container5 > .c4img a {
+                padding: 60px 0 20px;
+                font-size: 40px;
+                width: 100%;
+            }
             .c4link {
                 display: inline;
                 float: left;
-                padding: 150px 0px 0 50px;
+                padding: 99px 6px 72px 52px;;
             }
                 .c4link a {
-                    text-decoration: none;
                     margin: 20px;
                     color: #777;
                     font-size: 18px;
                     font-family: sans-serif;
-                }
+                }                
             .c4img a,
             p {
                 display: inline-block;
-                width: 50%;
                 text-align: center;
                 text-decoration: none;
-            }
-            @media (max-width: 1200px) {
-                .btn2 {
-                    line-height: 14px;
-                    left: 23%;
-                    bottom: 32.1%;
-                }
-            }
-
-            .c4img a {
-                padding: 60px 0 20px;
-                font-size: 40px;
-            }
-            .c4img p {
-                font-size: 18px;
-                color: #777;
             }
           .container5 > .socials {
                 display: inline;
@@ -209,8 +205,8 @@
                 height: 50px;
             }
             .container5 >  .socials a {
-                    width: 48px;
-                    padding: 10px;
+                    width: 62px;
+                    padding: 17px;
                     float: right;
                     margin: 30px 10px;
                     color: #fff;
@@ -224,3 +220,10 @@
                         color: blue;
                         border-radius: 50%;
                     }
+        @media (max-width: 1200px) {
+            .btn2 {
+                line-height: 14px;
+                left: 23%;
+                bottom: 32.1%;
+            }
+        }
