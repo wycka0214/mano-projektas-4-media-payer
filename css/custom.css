@@ -67,6 +67,9 @@
                 left: 73%;
                 bottom: 32.1%;     
             }
+    .container2 {
+        width: 100%;
+    }
         .left2 {
             display: inline-block;
             float: left;
@@ -90,30 +93,26 @@
                 text-align: left;
             }
         .right2 {
-            background-color: olive;
             display: inline-block;
-            width: 30%;
+            width: 59%;
         }        
-            .flor {
-                float: right;
-            }
-            .r2img {
-                height: 144px;
-                background-color: violet;
-                margin: 10px 0;
-                display: inline;
-                width: 100%;
-                padding: 0 170px;                
+        .container2 > .right2 > .r2img {
+            /* height: 144px; */
+            margin: 15px 58;
+            display: inline-block;
+            width: 100%; 
+            padding: 20px;            
         }
-             .r2text {
-                text-decoration: none;
-                color: white;
-                display: inline;
-                width: 100%;
-                font-size: 32px;
-                line-height: 36px;
-                background-color: red;
-             }
+        .container2 > .right2 > .r2text {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            width:49%;
+            font-size: 26px;
+            line-height: 30px;
+            padding-left: 120px;
+        }
+
         .c31 {
             display: inline-block;
             text-align: center;
