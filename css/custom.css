@@ -194,7 +194,13 @@
 
 
 
-            
+        .container5 {
+            width: 100%;
+        }
+        .container5 > .c4img {
+            display: inline-block;
+            width: 35%;
+        }
             .container5 > .c4link p {
                 font-size: 18px;
                 color: #777;
@@ -206,7 +212,7 @@
                 width: 100%;
             }
             .c4link {
-                display: inline;
+                display: inline-block;
                 float: left;
                 padding: 99px 6px 72px 52px;;
             }
@@ -224,8 +230,7 @@
                     text-decoration: none;
                 }
                     .c4img p {
-                        margin: 20px;
-                        width: 35%;
+                        width: 100%;
                             
                     }                
             .container5 > .c4img #dot {
@@ -238,15 +243,16 @@
                 height: 50px;
             }
             .container5 >  .socials a {
-                    width: 62px;
+                    width: 48px;
                     padding: 17px;
                     float: right;
-                    margin: 30px 10px;
+                    margin: 100px 10px;
                     color: #fff;
                     background-color: blue;
                     text-decoration: none;
                     border: 1px solid blue;
                     border-radius: 50%;
+                    text-align: left;
                 }
                     .socials > a:hover {
                         background-color: #fff;
