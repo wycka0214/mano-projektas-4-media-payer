@@ -48,7 +48,6 @@
             font-family: monospace;
             margin: 20px 20px;
             width: 70%;
-
         }
         .meeting {
             width: 100%;
@@ -60,6 +59,7 @@
             border-radius: 25px;
             height: 50px;
             padding-left: 20px;margin-bottom: 90px;
+            outline: none;
         }
             .btn {
                 line-height: 14px;
@@ -67,13 +67,18 @@
                 left: 73%;
                 bottom: 32.1%;     
             }
-            @media (max-width: 680px) {
-                .container1 > .btn {
-                    position: absolute;
-                    left: 64%;
-                    bottom: 21.5%;     
-                }
+    @media (max-width: 680px) {
+        .container1  .btn {
+            left: 64%;
+            bottom: 21.5%;     
             }
+        .dot {
+            left:3%;      
+            }
+            .sup {
+                margin-right: 170px;
+            }
+        }
     .container2 {
         width: 100%;
     }
@@ -84,7 +89,6 @@
             padding: 30px 60px;
             text-align: left;
             margin-top: 40px;
-            background-color: rgb(11, 37, 184);
         }
             .features {
                 color: #F6BECB;
@@ -104,11 +108,10 @@
             width: 59%;
         }        
         .container2 > .right2 > .r2img {
-            /* height: 144px; */
             margin: 15px 58;
             display: inline-block;
             width: 100%; 
-            padding: 20px;            
+            padding: 30px;            
         }
         .container2 > .right2 > .r2text {
             text-decoration: none;
@@ -118,6 +121,19 @@
             font-size: 26px;
             line-height: 30px;
             padding-left: 120px;
+            padding-bottom: 30px;
+        }
+        @media (max-width: 1100px) {
+            .container2 > .left2 {
+                width:75%;
+                float: left;
+            }
+        }
+        @media (max-width: 1100px) {
+            .container2 > .right2 {
+                width:75%;
+                float: left;
+            }
         }
         @media (min-width: 1200px) {
             .container2 > .right2 > .r2text {
@@ -144,7 +160,6 @@
                 padding-left: 350px;
             }
         }
-
         .c31 {
             display: inline-block;
             text-align: center;
@@ -192,15 +207,11 @@
                 position: unset;
                 float: right;
                 margin: 167px 94px 162px 0;
-            }   
-                                      
+            }                                         
         .container4 a:hover {
                 color: #fff;
                 background-color: rgb(176, 176, 253);
-            }
-
-
-
+        }
         .container5 {
             width: 100%;
         }
@@ -249,7 +260,7 @@
                 width: 50px;
                 height: 50px;
             }
-            .container5 >  .socials a {
+                .container5 >  .socials a {
                     width: 48px;
                     padding: 17px;
                     float: right;
@@ -273,3 +284,16 @@
                 bottom: 32.1%;
             }
         }
+        @media (max-width: 1000px) {
+            .container5 > .c4img {
+                align-content: center
+            }
+            .container5 > .c4link {
+                width: 100%;
+            }
+            .container5 >  .socials {
+                width: 48px;
+                display: inline;
+                float: center;    
+            }
+    }
